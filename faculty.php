@@ -42,7 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					 <li class="hvr-sweep-to-bottom active"><a href="index.html" class="scroll">About Project</a></li>
 
 						<li class="hvr-sweep-to-bottom active"><a href="login.html">Admin Login</a></li>
-						<li class="hvr-sweep-to-bottom"><a href="faculty.php" class="scroll">Faculty</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="faculty.php" class="scroll">Invigilator</a></li>
 						<li class="hvr-sweep-to-bottom"><a href="sview.html" class="scroll">Student</a></li>
 						
 						
@@ -120,9 +120,9 @@ $n=$_POST['invg'];
 $q="SELECT * FROM faculty WHERE INVIGILATOR_NAME='$n'";
 $q2=@mysql_query($q) or die(mysql_error());
 $row = mysql_fetch_array($q2);
-echo "FACULTY NAME:  ";
+echo "INVIGILATOR NAME:  ";
 echo $n."<br>";
-echo "ROOM ALLOTED TO YOU:  ";    echo $row['ROOM_NO'];   echo "<br>";
+echo "HALL ALLOTED TO YOU:  ";    echo $row['ROOM_NO'];   echo "<br>";
 echo "TIMING:  "; echo $row['TIMING'];
 /*echo "<table>";
 echo "<tr>";
