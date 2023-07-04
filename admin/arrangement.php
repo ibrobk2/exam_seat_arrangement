@@ -67,7 +67,7 @@ include "connection.php";
       border-bottom: 1px solid #ddd;
     }
 
-    .btn-primary, #hall_btn{
+    .btn-primary, #hall_btn, #print{
       padding: 10px;
       border: none;
       ouline: none;
@@ -85,6 +85,14 @@ include "connection.php";
         text-align: center;
         font-family: sans-serif;
     }
+
+/* #print{
+    text-align: right;
+} */
+
+.course_details{
+    display: flex;
+}
    
     
     @media screen and (max-width: 600px) {
@@ -107,6 +115,14 @@ include "connection.php";
         <h2>Department of Computer Science</h2>
         <h3>Hassan Usman Katsina Polytechnic, Katsina</h3>
     </div>
+
+    <div class="course_details">
+        <h3>Course Code:........................................</h3>
+        <h3>Course Title:.................................................................................................</h3>
+        <h3>Date:........................................................................</h3>
+        
+    </div>
+    <button id="print" style="text-align: right;" onclick="print()">Print</button>
 <div class="table-container">
       <h2 style="text-align:center;"><u>Assigned Seating Arrangements</u></h2>
       <table>

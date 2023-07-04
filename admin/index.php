@@ -246,7 +246,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="form-container">
       <h2>Generate Reports</h2>
       <!-- Add form elements and JavaScript logic to generate reports in PDF or Excel format -->
-      <form action="generate_report.php">
+      <form action="arrangement.php">
         <button class="btn btn-primary">Generate Report</button>
         <button class="btn btn-primary" onclick="sweet()" type="button">Sweet Test</button>
       </form>
