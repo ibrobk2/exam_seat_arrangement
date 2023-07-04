@@ -1,5 +1,5 @@
-SNO., NAME, REG_NO.
-1,Musa Adamu, H20CS1010
-2,Lawal Aminu, H20CS1013
-3,Yusuf Kabir,H20CS1015
-4, Kamal Abubakar, H20CS1017
+Student ID,NAME, matric_no
+H20CS1010,Musa Adamu,H20CS1010
+H20CS1013,Lawal Aminu,H20CS1013
+H20CS1015,Yusuf Kabir,H20CS1015
+H20CS1017,Kamal Abubakar,H20CS1017

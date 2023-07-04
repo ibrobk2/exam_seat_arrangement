@@ -31,7 +31,7 @@ mysql_query($q);
  if($rows==1){
 	 $user_id=mysql_result($result,0,'id');
  $_SESSION['user_id'] = $user_id;
- header("Location: core.php"); // Redirect user to index.php
+ header("Location: admin/"); // Redirect user to index.php
  }else{
  header("Location: wrong.html");//echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>Click here to <a href='login.html'>Login</a></div>";
  }
